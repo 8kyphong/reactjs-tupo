@@ -1,0 +1,47 @@
+.card-space {
+  margin: 20px 0;
+}
+.text-button {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(113, 110, 121);
+  transform: translateX(60px);
+  box-shadow: 2px 2px rgb(247, 240, 237);
+}
+.text-button:hover {
+  background-color: tomato;
+}
+.bg-card {
+  background-color: rgb(189, 189, 189);
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.623);
+}
+.img-KhoaHoc {
+  width: 100%;
+  height: 250px;
+  background-position: center;
+}
+h4.text-title {
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-shadow: 1px 1px rgb(24, 23, 23);
+  text-align: center;
+}
+.hideCourse {
+  overflow: hidden;
+  line-height: 1em;
+  height: 2em;
+}
+
+.showCourse {
+  line-height: 1em;
+  height: 500px;
+}
+.showCourse {
+  height: auto;
+}
+.show-more {
+  align-items: center;
+}

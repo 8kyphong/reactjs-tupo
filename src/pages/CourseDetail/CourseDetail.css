@@ -1,0 +1,27 @@
+.text-title-ChiTiet {
+  font-size: 50px;
+  color: rgb(250, 151, 39);
+  text-shadow: 2px 2px grey;
+  text-align: center;
+
+  background-image: linear-gradient(to bottom, rgb(182, 178, 178), pink);
+  padding: 10px 10px;
+}
+.img-KhoaHocChiTiet {
+  width: 500px;
+  height: 500px;
+  background-color: cornsilk;
+}
+
+.text-dangKy {
+  padding: 10px 20px;
+  background-image: linear-gradient(to right, rgb(139, 213, 248), pink);
+  color: aliceblue;
+
+  font-weight: 700;
+}
+button.text-dangKy:hover {
+  background-image: linear-gradient(to right, pink, rgb(139, 213, 248));
+  color: blueviolet;
+  transition-duration: 1.5s;
+}

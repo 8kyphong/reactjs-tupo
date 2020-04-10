@@ -1,0 +1,210 @@
+.slick-next {
+  top: 50%;
+  right: 30px;
+  z-index: 10;
+}
+.slick-next::before {
+  font-size: 50px;
+  padding: 15px 0;
+  font-weight: 900;
+  color: #007cc0;
+  background-color: #f7f4f3;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.slick-prev {
+  top: 50%;
+  left: 0px;
+  z-index: 10;
+}
+.slick-prev::before {
+  font-size: 50px;
+  padding: 15px 0;
+  font-weight: 900;
+  color: #007cc0;
+  background-color: #f7f4f3;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.home-header .carousel-items {
+  position: relative;
+}
+.carousel-items .carousel__caption {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  color: rgb(245, 242, 238);
+  font-weight: 600;
+  text-shadow: 2px 2px rgb(36, 9, 9);
+  transform: translate(-50%, -50%);
+}
+.carousel__caption .carousel__detail span {
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  font-weight: 800;
+  border-radius: 50%;
+  line-height: 1.5;
+  text-align: center;
+  padding: 10px;
+}
+.home-header .img-1 {
+  background-image: url(https://wallpaperplay.com/walls/full/f/2/e/164626.jpg);
+  background-color: rgba(90, 80, 51, 0.473);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.home-header .img-2 {
+  background-image: url(https://wallpaperaccess.com/full/193506.jpg);
+  background-color: rgba(90, 80, 51, 0.473);
+  background-blend-mode: darken;
+  height: 600px;
+}
+.home-header .img-3 {
+  background-image: url(https://i.pinimg.com/originals/d2/31/7a/d2317a7df945f9276729a9d0d7f3e4a5.jpg);
+  background-color: rgba(90, 80, 51, 0.473);
+  background-blend-mode: darken;
+  height: 600px;
+}
+.home-header .img-4 {
+  background-image: url(https://www.tokkoro.com/picsup/5605371-internet-wallpapers.jpg);
+  background-color: rgba(90, 80, 51, 0.473);
+  background-blend-mode: darken;
+  height: 600px;
+}
+
+.homeCourse {
+  margin: 30px;
+}
+.homeCourse .textHome {
+  background-image: linear-gradient(to bottom, rgba(36, 34, 34, 0.671), rgba(53, 14, 30, 0.787));
+
+  color: white;
+
+  width: 50%;
+  height: 70px;
+  padding-top: 15px;
+  margin: auto;
+}
+
+/* STARTED */
+.get-started {
+  width: 100%;
+  background-color: rgb(111, 110, 114);
+  border-top: 10px solid rgb(252, 143, 110);
+}
+.get-started .icon-top,
+.get-started .icon-bottom {
+  width: 80%;
+  margin: 20px auto;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 50px;
+}
+.get-started .mid {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.get-started .mid i {
+  color: white;
+  font-size: 50px;
+}
+.get-started .mid .text {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.get-started .mid .text h3 {
+  color: white;
+  font-size: 35px;
+}
+.get-started .mid .text p {
+  color: white;
+  font-size: 25px;
+}
+.btn--purple {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: red;
+  border: 1px solid red;
+  padding: 10px 15px;
+}
+.btn--purple:hover {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: blueviolet;
+  border: 1px solid blueviolet;
+  padding: 10px 15px;
+}
+
+/* STUDENT TALK */
+.saying {
+  background-color: white;
+  margin: 50px;
+}
+.saying .say-container {
+  width: 80%;
+  margin: auto;
+}
+.saying .say-container .slick-prev.slick-disabled::before,
+.saying .say-container .slick-next.slick-disabled::before {
+  opacity: 0;
+}
+.saying .say-container .slick-prev::before,
+.saying .say-container .slick-next::before {
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 10%;
+  color: rgb(255, 4, 4);
+  box-shadow: 2px 2px 3px rgb(61, 3, 3);
+  opacity: 1;
+}
+.saying h3 {
+  text-align: center;
+  color: rgb(34, 29, 29);
+  font-size: 50px;
+  font-weight: 600;
+  border-top: 3px solid orangered;
+}
+.saying .say-container .slick-slide {
+  margin: 10px 10px;
+}
+.saying .item {
+  background-image: linear-gradient(to bottom, grey, rgb(61, 61, 61));
+  width: 50%;
+  padding: 10px;
+  box-shadow: 5px 5px 7px rgb(119, 119, 119);
+  border-radius: 10%;
+}
+.saying .item div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.saying .item div img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  border: 2px solid grey;
+  box-shadow: 0px 0px 12px 3px rgb(255, 203, 107), 0px 0px 20px 3px rgb(250, 216, 153);
+}
+.saying .item div p {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(221, 220, 220);
+}
+.saying .item p {
+  padding: 15px;
+  color: rgb(221, 220, 220);
+  font-size: 15px;
+  font-weight: 300;
+}
